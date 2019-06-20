@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:clickable="false"
+        android:fontFamily="sans-serif"
+        android:text="Arduino app by Landers"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:width="250px"
+        android:background="@drawable/shape"
+        android:text="扫描"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="扫描" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="功能"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonopen"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="800px"
+        android:alpha="90"
+        android:layerType="none"
+        android:text="开" />
+
+    <Button
+        android:id="@+id/buttonclose"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="800px"
+        android:text="关" />
+
+    <Button
+        android:id="@+id/buttonpwm"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="800px"
+        android:text="呼吸灯" />
+
+    <Button
+        android:id="@+id/buttonrun"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="800px"
+        android:text="跑马灯" />
+
+    <Button
+        android:id="@+id/music"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="800px"
+        android:text="音乐" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接收数据"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:text="暂无接收数据" />
+</LinearLayout>
