@@ -16,7 +16,7 @@ public class MainActivity  extends BlunoLibrary {
 	private Button close;
 	private Button pwm; //呼吸
 	private Button run; //跑马灯
-	private Button music; //跑马灯
+	private Button music; //音乐
 	private Button buttonSerialSend;
 	private EditText serialSendText;
 	private TextView serialReceivedText;
