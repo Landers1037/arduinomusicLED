@@ -34,6 +34,10 @@ arduino实现的蓝牙控制的音乐台灯
 
 ![demo](./demo.jpg)
 
+#### 原理图
+
+![android](./android.png)
+
 ##### 具体实现
 
 定制发送一个字符代表特殊的指令
